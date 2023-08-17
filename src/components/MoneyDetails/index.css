@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.balance-con {
+  display: flex;
+  flex-direction: row;
+  width: 90vw;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.totalBalance {
+  display: flex;
+  flex-direction: row;
+
+  border-radius: 10px;
+  background-color: #ecfccb;
+  align-items: center;
+  width: 450px;
+  padding: 10px;
+  margin-right: 10px;
+  border-color: #84cc16;
+  border-style: solid;
+}
+.balance {
+  height: 70px;
+  width: 70px;
+  margin-right: 50px;
+  margin-left: 20px;
+}
+.text {
+  color: #475569;
+}
+.balancetext {
+  font-size: 18px;
+}
+.rupees {
+  font-size: 25px;
+}
+.totalIncome {
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+  border-radius: 10px;
+  background-color: #cffafe;
+  align-items: center;
+  width: 450px;
+  padding: 10px;
+  border-color: #06b6d4;
+  border-style: solid;
+}
+.totalExpenses {
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+  border-radius: 10px;
+  background-color: #ede9fe;
+  align-items: center;
+  width: 450px;
+  padding: 10px;
+  border-color: #7c3aed;
+  border-style: solid;
+}
